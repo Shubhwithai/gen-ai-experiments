@@ -144,7 +144,7 @@ if submit_button:
             os.environ["GOOGLE_API_KEY"] = api_key_clean
             
             # Initialize Gemini model
-            model = Gemini(id="gemini-2.5-flash")
+            model = Gemini(id="gemini-3-pro-preview")
             
             # Create specialized agents
             tax_agent = Agent(
